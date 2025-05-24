@@ -22,7 +22,7 @@
     - name: Run Docker container
       docker_container:
         name: insure-me
-        image: shubhamkushwah123/insure-me:3.0
+        image: reddyrahul/insure-me:latest
         state: started
         ports:
           - "8084:8081"
